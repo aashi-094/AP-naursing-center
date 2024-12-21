@@ -1,0 +1,390 @@
+@import url(https://db.onlinewebfonts.com/c/2f8845bdde42e943355a39765c5be5c0?family=Druk+Wide+Web+Super+Regular);
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Raleway", sans-serif;
+}
+
+
+.s1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;;
+}
+
+.s1 .contact p{
+    padding: 0px 15px;
+    /* margin-right: 10%; */
+}
+
+.s1 .socialmedia i{
+    padding: 0px 5px;
+}
+
+.s2{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+}
+
+.s2 .head .icon{
+    display: flex;
+}
+.s2 .head .icon a img{
+    height: 35px;
+    border-radius: 10px;
+    margin-right: 5px;  
+}
+.s2 .head h1{
+    font-size: 30px;
+    display: flex;
+}
+
+.s2 .head h1 a{
+    color: orange;
+    text-decoration: none;
+}
+
+.navbaricon{
+    display: none;
+    cursor: pointer;
+}
+
+.s2 .nav li{
+    list-style: none;
+    padding: 5px 5px;
+    float: left;
+}
+.s2 .nav li a{
+   color: orange;
+   text-decoration: none;
+}
+
+.socialmedia a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.container{
+    width: 1000px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 20px auto;
+}
+
+.s3{
+    /* font-family: 'Playfair Display', 'Georgia', serif; */
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.s3 .head{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.s3 .para{
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+.s4{
+    align-items: center;
+}
+.s4 .contact-form{
+    font-family: 'Open Sans', Arial, sans-serif;
+    width: 100%;
+}
+
+.s4 .contact-form form{
+    text-transform: uppercase;
+    width: 90%;
+}
+
+.s4 .row1 button{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    width: 225px;
+    height: 35px;
+}
+.s4 .row2 button{
+    cursor: pointer;
+    margin: 10px;
+    width: 475px;
+    height: 35px;
+}
+.s4 .row3 input{
+    cursor: pointer;
+    margin: 10px;
+    width: 470px;
+    height: 35px;
+}
+.s4 .row4 input{
+    cursor: pointer;
+    margin: 10px;
+    width: 470px;
+    height: 35px;
+}
+.s4 .row5 textarea{
+    cursor: pointer;
+    margin: 10px;
+    width: 470px;
+    height: 65px;
+    padding: 0px;
+}
+.row6 button{
+    cursor: pointer;
+    float: right;
+    margin: 12px;
+    width: 200px;
+    height: 35px;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    background-color: black;
+}
+
+.s4 .banner img{
+    cursor: pointer;
+    height: 450px;
+}
+
+
+@media (max-width:425px){
+    .s1{   
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .s1 .contact{
+        font-size: 13px;
+    }
+    .s1 .socialmedia{
+        size: 10px;
+    }
+
+    .s2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .s2 .head p{
+        font-size: 30px;
+
+    }
+
+    .s2{
+        display: grid;
+        grid-template-columns: 80% 20%;
+    }
+    .s2 .nav{
+        display: none;
+    }
+    .s2 .navbaricon{
+        display: block;
+        padding: 15px 5px;
+    }
+    .container{
+        width: 90vw;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+
+    .s3{
+        /* font-family: 'Playfair Display', 'Georgia', serif; */
+        
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .s3 .head{
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+    
+    .s3 .para{
+        text-transform: uppercase;
+        font-size: 15px;
+        letter-spacing: 2px;
+        padding: 10px;
+    }
+    
+    
+    .s4 .contact-form{
+        font-family: 'Open Sans', Arial, sans-serif;
+        width: 100%;
+    }
+    
+    .s4 .contact-form form{
+        text-transform: uppercase;
+        width: 100%;
+    }
+    
+    .s4 .row1 button{
+        cursor: pointer;
+        color: white;
+        margin: 10px;
+        width: 325px;
+        height: 35px;
+    }
+    .s4 .row2 button{
+        cursor: pointer;
+        margin: 10px;
+        width: 323px;
+        height: 35px;
+    }
+    .s4 .row3 input{
+        cursor: pointer;
+        margin: 10px;
+        width: 320px;
+        height: 35px;
+    }
+    .s4 .row4 input{
+        cursor: pointer;
+        margin: 10px;
+        width: 320px;
+        height: 35px;
+    }
+    .s4 .row5 textarea{
+        cursor: pointer;
+        margin: 10px;
+        width: 320px;
+        height: 65px;
+        padding: 0px;
+    }
+    .row6 button{
+        cursor: pointer;
+        float: right;
+        margin: 12px;
+        width: 200px;
+        height: 35px;
+        font-weight: bolder;
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    .s4 .banner img{
+        display: none;
+    }
+}
+@media (min-width:425px) and (max-width:992px){
+    .s1{
+        
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .s1 .contact{
+        font-size: 13px;
+    }
+    .s1 .socialmedia{
+        size: 10px;
+    }
+
+    .s2 .head p{
+        font-size: 30px;
+
+    }
+
+    .s2{
+        
+        display: grid;
+        grid-template-columns: 90% 10%;
+    }
+    .s2 .nav{
+        display: none;
+    }
+    .s2 .navbaricon{
+        display: block;
+        padding: 15px 5px;
+
+    }
+    .container{
+        width: 90vw;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        /* border: 2px solid black; */
+        
+        /* align-items: center; */
+    }
+
+    .s3{
+        /* font-family: 'Playfair Display', 'Georgia', serif; */
+        
+        display: flex;
+        flex-direction: column;
+    }    
+    
+    .s4 .contact-form{
+        font-family: 'Open Sans', Arial, sans-serif;
+        width: 100%;
+    }
+    
+    .s4 .contact-form form{
+        text-transform: uppercase;
+        width: 100%;
+    }
+    
+    .s4 .row1 button{
+        cursor: pointer;
+        color: white;
+        margin: 10px;
+        width: 150px;
+        height: 35px;
+    }
+    .s4 .row2 button{
+        cursor: pointer;
+        margin: 10px;
+        width: 323px;
+        height: 35px;
+    }
+    .s4 .row3 input{
+        cursor: pointer;
+        margin: 10px;
+        width: 320px;
+        height: 35px;
+    }
+    .s4 .row4 input{
+        cursor: pointer;
+        margin: 10px;
+        width: 320px;
+        height: 35px;
+    }
+    .s4 .row5 textarea{
+        cursor: pointer;
+        margin: 10px;
+        width: 320px;
+        height: 65px;
+        padding: 0px;
+    }
+    .row6 button{
+        cursor: pointer;
+        float: left;
+        margin: 12px;
+        width: 200px;
+        height: 35px;
+        font-weight: bolder;
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    .s4 .banner img{
+        display: none;
+    }
+}
